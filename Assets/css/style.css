@@ -1,0 +1,203 @@
+*{
+  font-family: "roboto",sans-serif;
+}
+
+.promote-section{
+  margin-top: 40px;
+}
+
+.promote-text{
+  padding-top: 250px;
+}
+
+.promote-inner-text{
+  font-weight: 500;
+}
+
+.brand-section{
+  margin-top: 40px;
+}
+
+.feature-title{
+  font-weight: 700;
+}
+
+.feature-subtitle{
+  
+  font-size: 18px;
+  color: #999;
+  padding-bottom: 60px;
+  margin: 0;
+}
+
+.feature-heading-text{
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.feature-subtext{
+  color: #666;
+}
+
+.feature-text-box{
+  margin-bottom: 25px;
+}
+
+.feature-image{
+  max-width: 100%;
+}
+
+.feature-image-box{
+  align-self: center;
+}
+
+.how-section-title{
+  font-weight: 700;
+}
+
+.how-card{
+  padding: 50px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+}
+
+.how-card-title{
+  margin: 25px 0px 15px 0px;
+}
+
+.how-card-subtitle{
+  font-size: 16px;
+  margin: 0;
+  color: #666666;
+}
+
+.custom-container{
+  padding: 40px 15px;
+}
+
+.custom-heading{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.custom-subheading{
+  font-size: 18px;
+  color: #999999;
+}
+
+.header-container{
+  padding-bottom: 40px;
+}
+
+.icon-div{
+  background-color: #24B59D;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+
+.custom-box{
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 6px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+}
+
+.custom-box-textbox{
+  padding-left: 20px;
+}
+
+.custom-image-box{
+  align-self: center;
+}
+
+.custom-image{
+  vertical-align: middle;
+}
+
+.list-container ul{
+  padding: 0;
+}
+
+.list-container ul li p{
+  font-size: 15px;
+}
+
+.list-space{
+  margin-bottom: 24px;
+}
+
+.learn-button{
+  background-color: #24B59D;
+  color: white;
+  padding: 14px 30px;
+  font-size: 16px;
+}
+
+.learn-button-container{
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 992px){
+  .promote-text{
+    padding-top: 50px;
+    text-align: center;
+  }
+  .promote-image{
+    margin-bottom: 20px;
+  }
+  .feature-title{
+    font-size: 24px;
+  }
+  .how-section-title{
+    font-size: 24px;
+  }
+  .feature-image-box{
+    display: none;
+  }
+  .how-card{
+    margin-bottom: 30px;
+  }
+  .header-container{
+    text-align: center;
+  }
+  .custom-heading{
+    font-size: 24px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .prj{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .burger{
+    text-align: center;
+  }
+  .nav-link{
+    margin-top: 20px;
+    background-color: lightgrey; 	
+  }
+  .promote-text{
+    margin-top: 0px;
+  }
+  .promote-section{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .brand-image-margin{
+    margin-top: 50px;
+  }
+  .header-container{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px){
+  
+}

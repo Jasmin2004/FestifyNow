@@ -160,6 +160,126 @@
   margin-bottom: 30px;
 }
 
+.screenshots-width{
+  width:50%;
+}
+
+.screenshot-heading{
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.screenshot-subheading{
+  font-size: 18px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  color: #999999;
+}
+
+.pricing-container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pricing-heading{
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.pricing-subheading{
+  font-size: 18px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  color: #999999;
+}
+
+.pricing-box{
+  padding: 45px 0px;
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, .15);
+  margin: 0px -30px;
+  padding: 45px 0px;
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+
+.pricing-box-align{
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-box:hover{
+  scale: 1.1;
+}
+
+.pricing-icon{
+  margin-bottom: 28px;
+  color: #24B59D;
+}
+
+.pricing-box-heading{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.pricing-box-subheading{
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.pricing-box-list{
+  margin-bottom: 25px;
+  color: #555555;
+}
+
+.pricing-box-list li{
+  padding: 5px;
+}
+
+.Pricing-button{
+  color: #ffffff;
+  background-color: #24B59D;
+  padding: 14px 30px;
+  border-radius: 6px;
+}
+
+.footer-header{
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-list{
+  text-align: center;
+}
+
+.footer-list li{
+  padding-bottom: 8px;
+}
+
+.footer-text{
+  text-align: center;
+}
+
+.footer-list li a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-text a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-last-section{
+  border-top: 1px dotted black;
+}
 
 @keyframes fadeInUp {
   0% {
@@ -203,6 +323,18 @@
   .custom-heading{
     font-size: 24px;
   }
+  .screenshot-heading{
+    font-size: 24px;
+  }
+  .pricing-heading{
+    font-size: 24px;
+  }
+  .pricing-box{
+    margin: 0px;
+  }
+  .footer-logo{
+    margin-bottom: 20px;
+  }
 }
 
 
@@ -232,8 +364,17 @@
   .header-container{
     text-align: center;
   }
+  .screenshot-width{
+    width:100%;
+  }
+  .pricing-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 576px){
-  
+  .pricing-box{
+    margin-bottom: 20px;
+  }
 }

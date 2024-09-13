@@ -249,6 +249,45 @@
   border-radius: 6px;
 }
 
+.card-ribbon{
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+  left: -10px;
+  width: 114px;
+  height: 114px;
+  z-index: 99;
+}
+
+.pricing-box .card-ribbon span{
+  position: absolute;
+  display: block;
+  width: 165px;
+  padding: 9px 0;
+  background-color: #333;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+  color: #fff;
+  text-align: center;
+  left: -37px;
+  top: 21px;
+  transform: rotate(-45deg);
+}
+
+.pricing-box .card-ribbon :before, .pricing-box .card-ribbon :after{
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #000;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.pricing-box .card-ribbon:before{
+  bottom: 0;
+  left: 0;
+}
+
 .footer-header{
   font-weight: 700;
   font-size: 20px;
@@ -279,6 +318,22 @@
 
 .footer-last-section{
   border-top: 1px dotted black;
+}
+
+.top-arrow-box{
+  position: fixed;
+  top: 90%;
+  left: 95%;
+}
+
+.top-arrow{
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+}
+
+.top-arrow-box:hover .top-arrow i{
+  color: red;
 }
 
 @keyframes fadeInUp {

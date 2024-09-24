@@ -46,6 +46,7 @@
 
 .feature-image{
   max-width: 100%;
+  height: 100%;
 }
 
 .feature-image-box{
@@ -426,10 +427,22 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .top-arrow-box{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+  }
+  
 }
 
 @media screen and (max-width: 576px){
   .pricing-box{
     margin-bottom: 20px;
   }
+  .top-arrow-box{
+    position: fixed;
+    top: 90%;
+    left: 85%;
+  }
+  
 }

@@ -7,6 +7,24 @@
   padding-right: 50px;
 }
 
+/* Floating / Shaking Top-Bottom Animation */
+.promote-image img {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+/* Keyframes */
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
 .promote-section {
   margin-top: 40px;
 }
@@ -25,6 +43,7 @@
 
 .feature-title {
   font-weight: 700;
+  margin-top: 40px;
 }
 
 .feature-subtitle {
@@ -332,6 +351,11 @@
   text-align: center;
 }
 
+.footer-text i {
+  color: #000;
+  transition: all 0.3s ease;
+}
+
 .footer-list li a {
   text-decoration: none;
   color: black;
@@ -340,6 +364,11 @@
 .footer-text a {
   text-decoration: none;
   color: black;
+}
+
+.footer-text a:hover i {
+  color: #F97A37;
+  transform: scale(1.2);
 }
 
 .footer-last-section {
@@ -454,12 +483,11 @@
   }
 
   .burger {
-    text-align: center;
+    text-align: left;
   }
 
   .nav-link {
     margin-top: 20px;
-    background-color: lightgrey;
   }
 
   .promote-text {
@@ -508,12 +536,13 @@
   }
 
   .brand-section img {
-    max-width: 80px;   /* smaller logo size */
+    max-width: 80px;
+    /* smaller logo size */
     width: 100%;
     height: auto;
   }
 
-  .brand-image-margin{
+  .brand-image-margin {
     margin-top: 20px;
   }
 }
